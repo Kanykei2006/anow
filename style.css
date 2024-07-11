@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+.wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 500px;
+    gap: 10px;
+}
+.img {
+    width: 40px;
+    height: 40px;
+}
+
+.box .img5{
+    width: 100%;
+    height: 100%;
+    grid-column:2/2;
+    grid-row: 1/2;
+}
+
+.img4 {
+    width: 100%;
+    height: 100%;
+    grid-row: 2/4;
+}
+.img6 {
+    width: 100%;
+    height: 100%;
+    grid-column: 1/1;
+    grid-row: 4/4;
+}
+
+
+
+.box img {
+    width: 100%;
+    height: 100%;
+    grid-column: 4/3;
+    grid-row: 4/4;
+}
+
+.img5 {
+    width: 100%;
+    height: 100%;
+    grid-column: 4/2;
+    grid-row: 2/4;
+}
